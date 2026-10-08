@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 1fr 200px; */
+    grid-template-columns: 200px minmax(0,1fr) 200px;
+    gap: 5px;
+    border: 2px solid black; 
+}
+.left{
+    background-color: #add8e6;
+    padding: 20px;
+
+}
+.title{
+    background-color: lightcoral;
+    padding: 20px;
+    overflow-wrap: anywhere;
+    
+}
+.right{
+    background-color: lightgreen;
+    padding: 20px;
+}
